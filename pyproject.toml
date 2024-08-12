@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "my-library"
-version = "0.1.0"
+version = "0.1.2"
 description = ""
 authors = ["Luca <luca.convalle@gmail.com>"]
 readme = "README.md"
@@ -12,7 +12,3 @@ python = "^3.12"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[[tool.poetry.source]]
-name = "gcp"
-url = "https://europe-southwest1-python.pkg.dev/micro-servizi-1-0/micro-servizi-commons"
