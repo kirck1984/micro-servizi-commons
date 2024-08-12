@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "my-library"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Luca <luca.convalle@gmail.com>"]
 readme = "README.md"
