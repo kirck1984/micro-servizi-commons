@@ -1,0 +1,32 @@
+import numpy as np
+import pandas as pd
+
+# NumPy operations
+array = np.array([1, 2, 3, 4, 5])
+print("Array:", array)
+
+matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Matrix:\n", matrix)
+
+print("Sum of array elements:", np.sum(array))
+print("Mean of array elements:", np.mean(array))
+print("Standard deviation of array elements:", np.std(array))
+
+print("Transpose of matrix:\n", np.transpose(matrix))
+print("Matrix multiplication:\n", np.dot(matrix, matrix))
+# Pandas operations
+data = {
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Age": [25, 30, 35],
+    "City": ["New York", "Los Angeles", "Chicago"],
+}
+df = pd.DataFrame(data)
+print("DataFrame:\n", df)
+
+print("Names column:\n", df["Name"])
+print("First row:\n", df.iloc[0])
+
+print("Mean age:", df["Age"].mean())
+print("DataFrame description:\n", df.describe())
+
+print("People older than 30:\n", df[df["Age"] > 30])
