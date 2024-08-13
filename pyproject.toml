@@ -1,22 +1,14 @@
-[tool.poetry]
-name = "sample"
-version = "0.1.3"
-description = ""
-authors = ["Luca <luca.convalle@gmail.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-
-
 [project]
 name = "sample"
+version = "0.1.7"
+authors = [
+  { name="GEDI", email="author@example.com" },
+]
+description = "A common library package"
+readme = "README.md"
 requires-python = ">=3.8"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[[tool.poetry.source]]
-name = "gcp"
-url = "https://europe-southwest1-python.pkg.dev/micro-servizi-1-0/micro-servizi-commons"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
